@@ -68,28 +68,23 @@ h1, h2, h3, h4, h5, h6
     width: 100%
     background: $dark-green
     box-sizing: border-box
-    height: 100vh
-    // position: sticky
     top: 0
     .img
-      background-image: url('https://source.unsplash.com/QhjgAniliuY')
-      background-size: cover
-      background-position: center
-      width: 100%
-      height: 100%
   .dos-dos
     box-sizing: border-box
     width: 100%
-    padding: 8%
+    padding: 52px 8%
     background: $champange
     color: $gunmetal
     h1
       text-align: center
-      margin-bottom: 40px
-      font-size: 38px
+      font-size: 32px
+      margin-bottom: 26px
+      // font-size: 38px
+      line-height: 120%
     p
       font-size: 18px
-      line-height: 130%
+      line-height: 140%
       margin-bottom: 18px
 
 @media (min-width: 1024px)
@@ -97,32 +92,43 @@ h1, h2, h3, h4, h5, h6
     display: flex
     .dos-uno
       width: 50%
+      height: 100vh
       display: flex
       justify-content: center
       align-items: center
       align-content: center
       position: sticky
       .img
+        background-image: url('https://source.unsplash.com/QhjgAniliuY')
+        background-size: cover
+        background-position: center
+        width: 100%
+        height: 100%
     .dos-dos
       width: 50%
+      padding: 8%
       h1
+        font-size: 38px
+        margin-bottom: 40px
+        line-height: 130%
       p
 
 .tres
-  // background: $gunmetal
   width: 100%
   color: white
   box-sizing: border-box
   .tres-uno
     box-sizing: border-box
     width: 100%
-    padding: 8%
+    padding: 52px 8% 64px
     background: $gunmetal
     color: $dust-storm
     h1
       text-align: center
       margin-bottom: 48px
-      font-size: 38px
+      font-size: 32px
+      // font-size: 38px
+      line-height: 120%
     .items
       .item
         text-align: center
@@ -133,29 +139,20 @@ h1, h2, h3, h4, h5, h6
         p
           // text-align: left
           font-size: 18px
-          line-height: 130%
+          line-height: 140%
         &:last-child
           margin-bottom: 0
   .tres-dos
-    // width: 100%
-    // // background: $dark-green
-    // box-sizing: border-box
-    // height: 100vh
-    // // position: sticky
-    // top: 0
-    // .img
-    //   background: url('https://source.unsplash.com/zUNs99PGDg0')
-    //   background-size: cover
-    //   background-position: center
-    //   width: 100%
-    //   height: 100%
 
 @media (min-width: 1024px)
   .tres
     display: flex
     .tres-uno
       width: 50%
+      padding: 8%
       h1
+        line-height: 130%
+        font-size: 38px
       .items
         .item
           img
@@ -164,6 +161,8 @@ h1, h2, h3, h4, h5, h6
     .tres-dos
       width: 50%
       position: sticky
+      top: 0
+      height: 100vh
       .img
         background: url('https://source.unsplash.com/zUNs99PGDg0')
         background-size: cover
@@ -178,35 +177,39 @@ h1, h2, h3, h4, h5, h6
     max-width: 1020px
     background: $champange
     color: $gunmetal
-    padding: 7% 0
+    // padding: 7% 0
+    padding-bottom: 48px
     .item
       .img
         width: 100%
-        height: 420px
+        height: 340px
         background-size: cover
+        margin-bottom: 20px
       .data
         width: 100%
         box-sizing: border-box
         text-align: center
+        padding-top: 28px
+        padding-left: 20px
+        padding-right: 20px
         h1
           margin-bottom: 20px
-          font-size: 38px
+          font-size: 32px
+          line-height: 120%
         p
           font-size: 18px
-          line-height: 130%
+          line-height: 140%
       &:nth-child(1)
         margin-bottom: 50px
         .img
           background-image: url('https://source.unsplash.com/Kwdp-0pok-I')
         .data
-          // padding-left: 0
       &:nth-child(2)
         .img
           background-image: url('https://source.unsplash.com/6bKpHAun4d8')
           order: 2
         .data
           order: 1
-          // padding-right: 5em
 
 @media (min-width: 1024px)
   .cuatro
@@ -224,9 +227,16 @@ h1, h2, h3, h4, h5, h6
         align-items: center
         .img
           width: 40%
+          height: 410px
+          margin-bottom: 0
         .data
           width: 60%
+          padding-top: 0
+          padding-left: 0
+          padding-right: 0
           h1
+            line-height: 130%
+            font-size: 38px
           p
         &:nth-child(1)
           .img
