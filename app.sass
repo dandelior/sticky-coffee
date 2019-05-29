@@ -1,0 +1,243 @@
+$gunmetal: #3D4A52
+$khaker: #BFAC9A
+$champange: #F9E6CF
+$dark-green: #011A23
+$dust-storm: #E3D2BD
+
+*
+  margin: 0
+  padding: 0
+
+body
+  font-family: 'Noto Sans HK', sans-serif
+  position: relative
+
+h1, h2, h3, h4, h5, h6
+  font-family: 'Vollkorn', serif
+  font-weight: 700
+
+.flex
+  display: flex
+
+@media (min-width: 1024px)
+  .flex
+    display: flex
+
+.justify-center
+  justify-content: center
+
+.align-center
+  align-items: center
+  align-content: center
+
+.wrap
+  flex-wrap: wrap
+
+.uno
+  background: $dark-green
+  color: white
+  width: 100%
+  height: 100vh
+  position: relative
+  z-index: 2
+  h1
+    font-size: 50px
+  &::before
+    opacity: 0.8
+    z-index: -1
+    background: url('hero.jpg') center/cover
+    position: absolute
+    content: ''
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    margin: auto
+    width: 100%
+    height: 100%
+
+@media (min-width: 1024px)
+  .uno
+    h1
+    &::before
+
+.dos
+  width: 100%
+  position: relative
+  .dos-uno
+    width: 100%
+    background: $dark-green
+    box-sizing: border-box
+    height: 100vh
+    // position: sticky
+    top: 0
+    .img
+      background-image: url('https://source.unsplash.com/QhjgAniliuY')
+      background-size: cover
+      background-position: center
+      width: 100%
+      height: 100%
+  .dos-dos
+    box-sizing: border-box
+    width: 100%
+    padding: 8%
+    background: $champange
+    color: $gunmetal
+    h1
+      text-align: center
+      margin-bottom: 40px
+      font-size: 38px
+    p
+      font-size: 18px
+      line-height: 130%
+      margin-bottom: 18px
+
+@media (min-width: 1024px)
+  .dos
+    display: flex
+    .dos-uno
+      width: 50%
+      display: flex
+      justify-content: center
+      align-items: center
+      align-content: center
+      position: sticky
+      .img
+    .dos-dos
+      width: 50%
+      h1
+      p
+
+.tres
+  // background: $gunmetal
+  width: 100%
+  color: white
+  box-sizing: border-box
+  .tres-uno
+    box-sizing: border-box
+    width: 100%
+    padding: 8%
+    background: $gunmetal
+    color: $dust-storm
+    h1
+      text-align: center
+      margin-bottom: 48px
+      font-size: 38px
+    .items
+      .item
+        text-align: center
+        margin-bottom: 28px
+        img
+          width: 90px
+          margin-bottom: 18px
+        p
+          // text-align: left
+          font-size: 18px
+          line-height: 130%
+        &:last-child
+          margin-bottom: 0
+  .tres-dos
+    // width: 100%
+    // // background: $dark-green
+    // box-sizing: border-box
+    // height: 100vh
+    // // position: sticky
+    // top: 0
+    // .img
+    //   background: url('https://source.unsplash.com/zUNs99PGDg0')
+    //   background-size: cover
+    //   background-position: center
+    //   width: 100%
+    //   height: 100%
+
+@media (min-width: 1024px)
+  .tres
+    display: flex
+    .tres-uno
+      width: 50%
+      h1
+      .items
+        .item
+          img
+          p
+          &:last-child
+    .tres-dos
+      width: 50%
+      position: sticky
+      .img
+        background: url('https://source.unsplash.com/zUNs99PGDg0')
+        background-size: cover
+        background-position: center
+        width: 100%
+        height: 100%
+
+.cuatro
+  box-sizing: border-box
+  .content-box
+    margin: auto
+    max-width: 1020px
+    background: $champange
+    color: $gunmetal
+    padding: 7% 0
+    .item
+      .img
+        width: 100%
+        height: 420px
+        background-size: cover
+      .data
+        width: 100%
+        box-sizing: border-box
+        text-align: center
+        h1
+          margin-bottom: 20px
+          font-size: 38px
+        p
+          font-size: 18px
+          line-height: 130%
+      &:nth-child(1)
+        margin-bottom: 50px
+        .img
+          background-image: url('https://source.unsplash.com/Kwdp-0pok-I')
+        .data
+          // padding-left: 0
+      &:nth-child(2)
+        .img
+          background-image: url('https://source.unsplash.com/6bKpHAun4d8')
+          order: 2
+        .data
+          order: 1
+          // padding-right: 5em
+
+@media (min-width: 1024px)
+  .cuatro
+    background-image: url('https://source.unsplash.com/s4wGZw3UuLk')
+    background-size: cover
+    background-position: center
+    padding: 7%
+    .content-box
+      padding: 7%
+      .item
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        align-content: center
+        align-items: center
+        .img
+          width: 40%
+        .data
+          width: 60%
+          h1
+          p
+        &:nth-child(1)
+          .img
+          .data
+            padding-left: 5em
+        &:nth-child(2)
+          .img
+          .data
+            padding-right: 5em
+
+footer
+  text-align: center
+  background: $khaker
+  padding: 20px 0
