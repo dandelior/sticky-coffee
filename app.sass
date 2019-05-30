@@ -42,10 +42,22 @@ h1, h2, h3, h4, h5, h6
   z-index: 2
   h1
     font-size: 50px
+    color: $dark-green
+    background: $champange
+    margin: 0
+    text-align: center
+    padding: 50px 80px 60px
+    line-height: 34px
+    span, i
+      font-size: 26px
+      padding-left: 15px
+      color: $gunmetal
+      // height: 1px
   &::before
-    opacity: 0.8
+    opacity: 0.7
+    // opacity: 1
     z-index: -1
-    background: url('hero.jpg') center/cover
+    background: url('https://source.unsplash.com/d1ngW7SNehM') center/cover
     position: absolute
     content: ''
     top: 0
@@ -110,8 +122,9 @@ h1, h2, h3, h4, h5, h6
       h1
         font-size: 38px
         margin-bottom: 40px
-        line-height: 130%
+        // line-height: 130%
       p
+        line-height: 160%
 
 .tres
   width: 100%
@@ -151,12 +164,13 @@ h1, h2, h3, h4, h5, h6
       width: 50%
       padding: 8%
       h1
-        line-height: 130%
+        // line-height: 130%
         font-size: 38px
       .items
         .item
           img
           p
+            line-height: 160%
           &:last-child
     .tres-dos
       width: 50%
@@ -249,5 +263,12 @@ h1, h2, h3, h4, h5, h6
 
 footer
   text-align: center
-  background: $khaker
+  background: $dark-green
+  color: $khaker
   padding: 20px 0
+  display: flex
+  align-items: center
+  align-content: center
+  p
+    position: relative
+    span
