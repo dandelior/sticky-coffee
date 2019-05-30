@@ -1,3 +1,5 @@
 {
-  "name": "coffee"
+  "name": "coffee",
+  "alias": "cofi.now.sh",
+  "version": 2
 }
