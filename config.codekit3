@@ -76,6 +76,212 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/fav/apple-touch-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 5658,
+		"oA": 0,
+		"oAP": "/fav/apple-touch-icon-114x114.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/fav/apple-touch-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 4073,
+		"oA": 0,
+		"oAP": "/fav/apple-touch-icon-120x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/fav/apple-touch-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 8620,
+		"oA": 0,
+		"oAP": "/fav/apple-touch-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/fav/apple-touch-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 9524,
+		"oA": 0,
+		"oAP": "/fav/apple-touch-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/fav/apple-touch-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 1790,
+		"oA": 0,
+		"oAP": "/fav/apple-touch-icon-57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/fav/apple-touch-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 1480,
+		"oA": 0,
+		"oAP": "/fav/apple-touch-icon-60x60.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/fav/apple-touch-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 2433,
+		"oA": 0,
+		"oAP": "/fav/apple-touch-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/fav/apple-touch-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 2696,
+		"oA": 0,
+		"oAP": "/fav/apple-touch-icon-76x76.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/fav/favicon-128.png": {
+		"ft": 32768,
+		"iS": 3561,
+		"oA": 0,
+		"oAP": "/fav/favicon-128.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/fav/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 322,
+		"oA": 0,
+		"oAP": "/fav/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/fav/favicon-196x196.png": {
+		"ft": 32768,
+		"iS": 15711,
+		"oA": 0,
+		"oAP": "/fav/favicon-196x196.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/fav/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 640,
+		"oA": 0,
+		"oAP": "/fav/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/fav/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 3500,
+		"oA": 0,
+		"oAP": "/fav/favicon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/fav/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fav/favicon.ico",
+		"oF": 0
+		},
+	"/fav/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 8620,
+		"oA": 0,
+		"oAP": "/fav/mstile-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/fav/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 22413,
+		"oA": 0,
+		"oAP": "/fav/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/fav/mstile-310x150.png": {
+		"ft": 32768,
+		"iS": 59132,
+		"oA": 0,
+		"oAP": "/fav/mstile-310x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/fav/mstile-310x310.png": {
+		"ft": 32768,
+		"iS": 111631,
+		"oA": 0,
+		"oAP": "/fav/mstile-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/fav/mstile-70x70.png": {
+		"ft": 32768,
+		"iS": 3561,
+		"oA": 0,
+		"oAP": "/fav/mstile-70x70.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/hero.jpg": {
 		"ft": 16384,
 		"iS": 487706,
@@ -94,6 +300,72 @@
 		"oA": 0,
 		"oAP": "/hero.mp4",
 		"oF": 0
+		},
+	"/img/cuatro-dos.jpg": {
+		"ft": 16384,
+		"iS": 286664,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/cuatro-dos.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/cuatro-uno.jpg": {
+		"ft": 16384,
+		"iS": 246329,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/cuatro-uno.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/cuatro.jpg": {
+		"ft": 16384,
+		"iS": 249746,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/cuatro.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/dos.jpg": {
+		"ft": 16384,
+		"iS": 1098661,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/dos.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/hero.jpg": {
+		"ft": 16384,
+		"iS": 781613,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/tres.jpg": {
+		"ft": 16384,
+		"iS": 727654,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/tres.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/index.html": {
 		"cB": 0,
@@ -155,7 +427,7 @@
 	"creationDate": 580875598.69256103,
 	"displayValue": "sticky-coffee",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-grumpy",
+	"iconImageName": "/fav/apple-touch-icon-120x120.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
